@@ -6,4 +6,9 @@ package com.qiao.common;
  * @Version: v1.0
  */
 public class CommonConstants {
+    public static final String SQLLOGGER = "sqlLogger";
+    public static final String COMPLEXFEIGNLOGGER = "complexFeignLogger";
+
+    public CommonConstants() {
+    }
 }
