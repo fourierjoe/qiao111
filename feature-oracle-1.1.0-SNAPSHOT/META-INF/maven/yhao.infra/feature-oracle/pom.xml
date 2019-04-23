@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>yhao.infra</groupId>
+    <artifactId>feature-oracle</artifactId>
+    <name>feature-oracle</name>
+    <version>1.1.0-SNAPSHOT</version>
+
+    <parent>
+        <groupId>yhao.cloud</groupId>
+        <artifactId>cloud-dependencies</artifactId>
+        <version>1.1.0-SNAPSHOT</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>yhao.infra</groupId>
+            <artifactId>infra-service-base</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>cn.guoyukun.jdbc</groupId>
+            <artifactId>oracle-ojdbc6</artifactId>
+            <version>11.2.0.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+    </dependencies>
+</project>
